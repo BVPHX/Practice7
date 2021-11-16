@@ -23,6 +23,8 @@ namespace Practice5
     {
         Triads firstTriad = new Triads();
         Triads secondTriad = new Triads();
+        Date firstDate = new Date();
+        Date secondDate = new Date();
         public MainWindow()
         {
             InitializeComponent();
@@ -55,7 +57,7 @@ namespace Practice5
             {
                 if (Convert.ToInt32(firstDateMonthBox.Text) > 0 && Convert.ToInt32(firstDateMonthBox.Text) < 13)
                 {
-                    Date firstDate = new Date(Convert.ToInt32(firstDateDayBox.Text), Convert.ToInt32(firstDateMonthBox.Text), Convert.ToInt32(firstDateYearBox.Text));
+                    firstDate = new Date(Convert.ToInt32(firstDateDayBox.Text), Convert.ToInt32(firstDateMonthBox.Text), Convert.ToInt32(firstDateYearBox.Text));
                     firstDateOutputBox.Text = firstDate.Day.ToString() + "." + firstDate.Month.ToString() + "." + firstDate.Year.ToString();
                 }
 
@@ -70,7 +72,7 @@ namespace Practice5
             {
                 if (Convert.ToInt32(secondDateMonthBox.Text) > 0 && Convert.ToInt32(secondDateMonthBox.Text) < 13)
                 {
-                    Date secondDate = new Date(Convert.ToInt32(secondDateDayBox.Text), Convert.ToInt32(secondDateMonthBox.Text), Convert.ToInt32(secondDateYearBox.Text));
+                    secondDate = new Date(Convert.ToInt32(secondDateDayBox.Text), Convert.ToInt32(secondDateMonthBox.Text), Convert.ToInt32(secondDateYearBox.Text));
                     secondDateOutputBox.Text = secondDate.Day.ToString() + "." + secondDate.Month.ToString() + "." + secondDate.Year.ToString();
                 }
             }
@@ -80,6 +82,14 @@ namespace Practice5
         private void Exit(object sender, RoutedEventArgs e)
         {
             Close();
+        }
+
+        public void DateCompare_Click(object sender, RoutedEventArgs e)
+        {
+            if (Date.DateCompare(firstDate ,secondDate) == true)
+            {
+                MessageBox.Show("");
+            }
         }
     }
 }

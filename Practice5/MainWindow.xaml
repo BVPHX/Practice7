@@ -60,7 +60,7 @@
                     <TextBox x:Name="firstDateOutputBox" HorizontalAlignment="Center" Margin="0,56,0,0" Text="" IsReadOnly="True" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
                     <Label Content="Вторая дата" HorizontalAlignment="Left" Margin="246,104,0,0" VerticalAlignment="Top"/>
                     <TextBox x:Name="secondDateOutputBox" HorizontalAlignment="Center" Margin="0,112,0,0" Text="" IsReadOnly="True" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-                    <Button Content="Сравнить даты" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top"/>
+                    <Button Content="Сравнить даты" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" Click="DateCompare_Click"/>
 
 
                 </Grid>
