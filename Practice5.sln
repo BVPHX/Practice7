@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice5", "Practice5\Practice5.csproj", "{2D61BA25-5F69-48D3-9CE5-0319859E7B18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triad", "Triad\Triad.csproj", "{40186263-AC44-4FCB-8C2B-E8E9A60C6086}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D61BA25-5F69-48D3-9CE5-0319859E7B18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D61BA25-5F69-48D3-9CE5-0319859E7B18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D61BA25-5F69-48D3-9CE5-0319859E7B18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D61BA25-5F69-48D3-9CE5-0319859E7B18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40186263-AC44-4FCB-8C2B-E8E9A60C6086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40186263-AC44-4FCB-8C2B-E8E9A60C6086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40186263-AC44-4FCB-8C2B-E8E9A60C6086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40186263-AC44-4FCB-8C2B-E8E9A60C6086}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67E5E826-438C-461F-969F-F01A9C3C957B}
+	EndGlobalSection
+EndGlobal
